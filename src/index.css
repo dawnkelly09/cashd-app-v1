@@ -12,6 +12,28 @@ code {
     monospace;
 }
 
+.btn{
+  background-color: #0099CC;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 12px;
+}
+
 .container{
+
+}
+
+.header{
+
+}
+
+.prompt-container{
+
+}
+
+.prompt-box{
   
 }
