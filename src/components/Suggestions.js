@@ -1,10 +1,11 @@
-import Suggestion from "./Suggestion"
 
 const Suggestions = ({ suggestions }) => {
+  
+
   return (
     <>
       {suggestions.map((suggestion) => (
-        <Suggestion key={suggestions.id} suggestion={suggestion} />
+        <h3 key={suggestion.id}>{suggestion.text}</h3>
       ))}
     </>
   )

@@ -2,20 +2,26 @@ import Header from './components/Header'
 import Button from './components/Button'
 import TextArea from './components/TextArea'
 import Suggestions from './components/Suggestions'
-//import generateAction from './generate'
 import { useState } from 'react'
+
+//import generateAction from './generate'
+
 
 
 function App() {
 
-  const [suggestions, makeSuggestions] = useState([
+  const [suggestions, setSuggestions] = useState([
     {
       id: 1,
-      text: "Durban Poison is great for additional creativity!",
+      text: 'This is some text about cannabis strains',
     },
     {
       id: 2,
-      text: "Han Solo Burger will help you sleep.",
+      text: 'More text about cannabis strains',
+    },
+    {
+      id: 3,
+      text: 'This is the final text about cannabis strains',
     },
   ])
   
@@ -29,7 +35,7 @@ function App() {
       <Button color='#0099cc' 
               text='Suggest a Strain' 
               onClick={onClick} />
-      <Suggestions suggestions={suggestions}/>
+      <Suggestions suggestions={suggestions} />
       
 
       
