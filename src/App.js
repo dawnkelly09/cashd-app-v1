@@ -3,6 +3,7 @@ import Button from './components/Button'
 import TextArea from './components/TextArea'
 import Suggestions from './components/Suggestions'
 import { useState } from 'react'
+//import ReactGA from 'react-ga'
 
 //import generateAction from './generate'
 
